@@ -1,0 +1,16 @@
+For the rest of this assignment, you must finish Signup.php to validate the webform.
+
+make sure to finish in webform
+    -output error messages in an UL list (sample in Demo webform.php)
+
+make sure to finish in Signup.php
+    -usernameEntryIsValid function
+    -passwordEntryIsValid function
+        -password should also check if it matches confirm password
+
+make sure to finish in Validator.php
+    -nameIsValid
+        - a type of string and not empty is a good check
+    -passwordIsValid
+        -you can just check if it's 6 chars or more along with being a 
+         string type and not empty
