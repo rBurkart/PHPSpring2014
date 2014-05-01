@@ -88,7 +88,10 @@ and open the template in the editor.
                 <input type="submit" value="Submit" />
                 
                 <?php
-                print_r($_POST);             
+                date_default_timezone_set('America/New_York');
+                $today = date("m/d/y");
+                print_r($_POST);
+                 echo "<div>Date: $today </div>";
                 ?>
                 
             </fieldset>
