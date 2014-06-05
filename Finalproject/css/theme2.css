@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+}
+
+body {
+    color: #FFF;
+    background: url("../images/bg01.png") repeat scroll 0 0 #E03A45;
+    
+}
+
+#icon {
+     background-color: #000;
+     color: #FFF;
+     font-size: 5em;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 6em;
+    text-align: center;
+    font-family: verdana;
+    margin-top: 0;
+    box-shadow: 0px 2px 10px 0px #000; 
+    text-shadow: 3px 3px 10px #000;
+    
+}
+
+h1 span {
+    text-transform: capitalize;
+     font-size: 0.3em;
+     display: block;
+     font-family: Georgia;
+}
+
+
+#about {
+    border-radius: 8px;
+    background-color: #FFF;
+    color: #000;
+    padding:1em;
+    margin: 1em 4em;
+    text-align: justify;
+    background: url("../images/bg02.png") repeat scroll 0 0 #FFF;
+    border: 1px solid #ddd;
+}
+#about h2 {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.6em;
+    font-weight: 300;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    vertical-align: text-top;
+    width: 640px;
+    margin: 1em auto;   
+    height: 200px;
+}
+
+#email, #address, #phone {
+    
+    background: url("../images/bg02.png") repeat scroll 0 0 #E03A45;
+    display: inline-block;
+    padding: 0;
+    width: 200px;
+    height: 140px;
+    float: left;
+    font-size: 1.5em;
+    margin-right: 5px; 
+    text-shadow: 3px 3px 10px #000;
+}
+
+
+.iconHeader {
+    font-size:1.5em;
+    color: #FFF;
+    background-color: #000;
+    border-radius: 10px 10px 0px 0px;
+}
